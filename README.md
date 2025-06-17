@@ -1,2 +1,4 @@
 # Over-The-Horizon-Data-Pipeline
-This repo contains the Python code for data generation, validation and ML implementation.
+This repository contains scripts for generating synthetic datasets for Over-the-Horizon (OTH) radar research and experimentation. The data simulates signal behaviour under varied environmental and system-level conditions, including propagation effects, noise, and other relevant parameters. The intent is to provide structured input for machine learning models focused on detection, classification, or prediction tasks in the OTH radar domain.
+
+The current implementation includes configurable data generation routines (oth_data_generation_3.py) that produce labeled feature sets for downstream use. Future development may include validation logic, model training modules, and integration with real-world datasets to support end-to-end research in long-range signal monitoring and inference.
